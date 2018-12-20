@@ -7,7 +7,7 @@ public class Bot {
         System.out.println("Please say something: \n" );
         Scanner scan = new Scanner(System.in);
         String s = scan.next();
-        String outString = null;
+        String outString = s;
 
         switch (s){
             case "Hi":
