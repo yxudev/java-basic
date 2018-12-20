@@ -10,9 +10,11 @@ com/yishan/algorithm/Solution.class
 com/yishan/oop/Motorcycle.class
 com/yishan/oop/AmpAuto$1.class
 com/yishan/oop/BikeObjects.class
+com/yishan/algorithm/Bfs.class
 com/yishan/algorithm/Finder.class
 com/yishan/oop/Auto.class
 com/yishan/oop/BicycalObjects.class
 com/yishan/oop/Phone.class
 com/yishan/oop/Bicycal.class
+com/yishan/stucture/TreeNode.class
 com/yishan/algorithm/FizzBuzz.class
