@@ -1,4 +1,1 @@
-package com.yishan.algorithm;
-
-public class Main {
-}
+package com.yishan.algorithm;public class Main {    public static void main(String[] args) {        int a[] = {1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9};        int b[] = {3, 1, 3, 10, 9, 2, 4, 2, 4, 9};        System.out.println("My phone is: ");        for (int i : b) {            System.out.print(" " + a[i] + " ");        }    }}
