@@ -2,7 +2,7 @@ package com.yishan.algorithm;
 
 import java.util.Stack;
 
-//public class BaseballSolution{
+public class BaseballSolution{
 //
 //    public int calPoints(String[] ops) {
 //        int sum = 0;
@@ -43,7 +43,6 @@ import java.util.Stack;
 //    }
 //}
 
-class BaseballSolution {
 
     public int calPoints(String[] ops) {
         int sum = 0;
@@ -85,9 +84,11 @@ class BaseballSolution {
 
     }
 
-    public static void main(String[] args){
-        BaseballSolution s = new BaseballSolution();
+    public static void main(String[] args) {
+          BaseballSolution s = new BaseballSolution();
         String[] input = {"5","-2","4","C","D","9","+","+"};
-        System.out.println("The total score is: " + s.calPoints(input) + " !!!");
+         System.out.println("The total score is: " + s.calPoints(input) + " !!!");
     }
+
+
 }
