@@ -8,6 +8,7 @@ public class Bike{
     public void testRealBike(){
         if (wheelNum >1){
             realBike=true;
+            System.out.println("it's a bike!");
         }
     }
 
@@ -22,6 +23,7 @@ public class Bike{
         Bike b =new Bike();
         b.move();
         Bike.getPedals();
+        b.testRealBike();
     }
 }
 
