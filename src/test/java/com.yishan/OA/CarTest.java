@@ -22,11 +22,11 @@ public class CarTest{
     @Autowired
     private CarRepository carRepository = Mockito.mock(CarRepository.class);
 
-
     @Test
     @Transactional
     public void findByIdTest() {
         Car c = new Car();
+        c.setCarId(5);
         Car expected = new Car();
         expected.setCarId(5);
         when(carRepository.save(c)).thenReturn(expected);
@@ -82,14 +82,4 @@ public class CarTest{
         assertNotNull(testCar);
         TestCase.assertEquals(result.getModel(), testCar.getModel());
     }
-
-
-
-
-
-
-
-
-
-
 }
