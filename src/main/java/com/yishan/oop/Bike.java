@@ -21,8 +21,8 @@ public class Bike{
     }
     public static void main(String[] args){
         Bike b =new Bike();
+
         Bike.move();
-        b.move();
         Bike.getPedals();
         b.testRealBike();
     }
