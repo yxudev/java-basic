@@ -54,6 +54,34 @@ public class Car {
     }
 
 
+    public static void nWeirdo(int n){
+        if(n%2==1){
+            System.out.println("Weird");
+        } else {
+            if (n>=6 && n <=20) {System.out.println("Weird");} else {
+                System.out.println("Not Weird"); }
+        }
+    }
+
+
+
+
+
+
+    public static void  main(String[] args){
+
+        nWeirdo(24);
+
+//        List<String> list = new ArrayList<>();
+//        list.add("ha");
+//        list.add("la");
+//        list.add("ra");
+//        list.add("ga");
+//
+//        list.forEach((x) -> System.out.println(x));
+    }
+
+
 
 
 }
